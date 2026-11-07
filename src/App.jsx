@@ -16,7 +16,7 @@ export default function App() {
           labelPosition="center"
           label={
             <Text size="xs" tt="uppercase" fw={500} c="dark.2" style={{ letterSpacing: '0.2em' }}>
-              Selected work
+              Short videos
             </Text>
           }
         />

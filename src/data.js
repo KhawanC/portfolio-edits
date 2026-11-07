@@ -7,7 +7,7 @@ import roblox from './assets/roblox-edit.mp4';
 export const profile = {
   name: 'Khawan',
   role: 'Video Editor',
-  bio: "Video editor focused on turning moments into dynamic, eye-catching and fun compilations. Don't hesitate to reach out.",
+  bio: "Turning moments into dynamic, eye-catching and fun compilations. Don't hesitate to reach out.",
   photo,
   socials: {
     x: 'https://x.com/clonazepam_k',

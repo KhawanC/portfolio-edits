@@ -3,6 +3,7 @@ import dbdRoblox from './assets/dbd-roblox-edit.mp4';
 import phantomBlade from './assets/phantom-blade-edit.mp4';
 import liveCut from './assets/pipi-corte-live.mp4';
 import roblox from './assets/roblox-edit.mp4';
+import ujiixLong from './assets/ujiix-corte-live-longo.mp4';
 
 export const profile = {
   name: 'Khawan',
@@ -16,10 +17,13 @@ export const profile = {
   },
 };
 
-// Add new videos here — they'll show up automatically in the grid.
+// Add new videos here — they'll show up automatically.
+// Vertical (9:16) videos fill the grid. Mark 16:9 videos with `horizontal: true`:
+// they're listed one below the other, under the vertical ones.
 export const videos = [
   { title: 'Live Highlights', tag: 'Stream cut', src: liveCut },
   { title: 'Phantom Blade', tag: 'Gaming edit', src: phantomBlade },
   { title: 'Dead by Daylight × Roblox', tag: 'Gaming edit', src: dbdRoblox },
   { title: 'Redliner × Roblox', tag: 'Gaming edit', src: roblox },
+  { title: 'Ujiix Live', tag: 'Stream cut', src: ujiixLong, horizontal: true },
 ];

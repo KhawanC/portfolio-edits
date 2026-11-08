@@ -1,11 +1,11 @@
 import { Box, Text, Stack } from '@mantine/core';
 
-export default function VideoCard({ title, tag, src, index, onPlay }) {
+export default function VideoCard({ title, tag, src, horizontal = false, index, onPlay }) {
   return (
     <Stack gap={10} className="rise" style={{ animationDelay: `${300 + index * 80}ms` }}>
       <Box
         style={{
-          aspectRatio: '9 / 16',
+          aspectRatio: horizontal ? '16 / 9' : '9 / 16',
           borderRadius: 'var(--mantine-radius-lg)',
           overflow: 'hidden',
           background: '#0b1220',

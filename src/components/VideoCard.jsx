@@ -1,6 +1,6 @@
 import { Box, Text, Stack } from '@mantine/core';
 
-export default function VideoCard({ title, tag, src, horizontal = false, index, onPlay }) {
+export default function VideoCard({ title, tag, src, horizontal = false, fit = 'cover', index, onPlay }) {
   return (
     <Stack gap={10} className="rise" style={{ animationDelay: `${300 + index * 80}ms` }}>
       <Box
@@ -20,7 +20,7 @@ export default function VideoCard({ title, tag, src, horizontal = false, index, 
           playsInline
           preload="metadata"
           onPlay={onPlay}
-          style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
+          style={{ width: '100%', height: '100%', objectFit: fit, display: 'block' }}
         />
       </Box>
       <Box px={4}>

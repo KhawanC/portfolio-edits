@@ -5,6 +5,7 @@ import liveCut from './assets/pipi-corte-live.mp4';
 import roblox from './assets/roblox-edit.mp4';
 import ujiixLong from './assets/ujiix-corte-live-longo.mp4';
 import ordemParanormal from './assets/ordem-paranormal-rpg-edit.mp4';
+import limittesterLive from './assets/limittester0-corte-live.mp4';
 
 export const profile = {
   name: 'Khawan',
@@ -30,4 +31,5 @@ export const videos = [
   { title: 'Redliner × Roblox', tag: 'Gaming edit', src: roblox },
   { title: 'Ordem Paranormal', tag: 'RPG edit', src: ordemParanormal, fit: 'contain' },
   { title: 'Ujiix Live', tag: 'Stream cut', src: ujiixLong, horizontal: true },
+  { title: 'Limittester0 Live', tag: 'Stream cut', src: limittesterLive, horizontal: true },
 ];

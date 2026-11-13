@@ -6,6 +6,7 @@ import roblox from './assets/roblox-edit.mp4';
 import ujiixLong from './assets/ujiix-corte-live-longo.mp4';
 import ordemParanormal from './assets/ordem-paranormal-rpg-edit.mp4';
 import limittesterLive from './assets/limittester0-corte-live.mp4';
+import campeonatoLol from './assets/campeonato-lol-edit.mp4';
 
 export const profile = {
   name: 'Khawan',
@@ -32,4 +33,5 @@ export const videos = [
   { title: 'Ordem Paranormal', tag: 'RPG edit', src: ordemParanormal, fit: 'contain' },
   { title: 'Ujiix Live', tag: 'Stream cut', src: ujiixLong, horizontal: true },
   { title: 'Limittester0 Live', tag: 'Stream cut', src: limittesterLive, horizontal: true },
+  { title: 'Scrim discord', tag: 'Stream cut', src: campeonatoLol, horizontal: true },
 ];
